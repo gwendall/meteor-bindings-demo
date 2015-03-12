@@ -1,0 +1,16 @@
+<body>
+  {{> content}}
+</body>
+
+<template name="content">
+  <div class="content">
+    <h3>Meteor bindings demo</h3>
+    <div>
+      <input type="text" class="form-control" placeholder="Type something here" data-bind="foo">
+    </div>
+    <div class="well">
+      See data there: <span data-bind="foo"></span>
+    </div>
+    <a href="http://github.com/gwendall/meteor-bindings" target="_blank">Github link</a>
+  </div>
+</template>

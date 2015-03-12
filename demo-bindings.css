@@ -1,0 +1,10 @@
+body {
+  padding: 20px;
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+.well {
+  margin-top: 10px;
+}
